@@ -140,21 +140,30 @@ Detailed customer-level diagnostics.
 
 # 📂 Project Structure
 ```
-Retail-Financial-Performance-Dashboard
+retail-financial-performance-dashboard
 │
-├── dashboard.pbix.pbix
-├── dataset.csv.csv
-├── retail_analysis.sql.sql
-├── Retail_Financial_Performance_Project_Documentation.pdf
-├── README.md
+├── dashboard/
+│ └── retail_dashboard.pbix 
 │
-└── dashboard_screenshots
-     ├── executive_overview.png
-     ├── profitability_analysis.png
-     ├── regional_performance.png
-     ├── customer_analysis.png
-     ├── growth_analysis.png
-     └── Customer_360_Page.png
+├── dashboard_screenshots/ 
+│ ├── executive_overview.png
+│ ├── profitability_analysis.png
+│ ├── regional_performance.png
+│ ├── customer_analysis.png
+│ ├── growth_analysis.png
+│ └── customer_360_page.png
+│
+├── dataset/
+│ └── retail_sales_dataset.csv 
+│
+├── sql/
+│ ├── database_schema.sql 
+│ └── sql_analysis_queries.sql 
+│
+├── documentation/
+│ └── Retail_Financial_Performance_Project_Documentation.pdf
+│
+└── README.md 
 ```
 
 
